@@ -1,4 +1,4 @@
-const products = [
+/*const products = [
   {
    //delete _id because mongoDb automatically created it
    // _id: '1',
@@ -78,5 +78,5 @@ const products = [
 //following is the common js
 //module.exports = products
 // so change it to 
-export default products
+export default products */
 
