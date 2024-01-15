@@ -6,7 +6,7 @@ import { v2 as cloudinary } from 'cloudinary'
 //@route  Get /api/products
 //@access  Public
 const getProducts = asyncHandler(async (req, res) => {
-  const pageSize = 16;
+  const pageSize = 24;
   const page = Number(req.query.pageNumber) || 1;
   //search functionality
   const keyword = req.query.keyword
